@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(82, 66, 230);
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 720px;
+  height: 405px;
+}
+.btn {
+  margin: 20px;
+}
+.prev {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+.next {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
