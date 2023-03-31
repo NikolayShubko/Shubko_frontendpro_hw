@@ -1,0 +1,19 @@
+body {
+  background-color: bisque;
+}
+.vote-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reaction-image {
+  width: 128px;
+  height: 128px;
+  margin: 20px;
+}
+.image-wrapper {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
