@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>hw5</title>
+  </head>
+  <body>
+    <div class="form-holder">
+      <form action="" class="main-form">
+        <label for="name">Enter your namae</label>
+        <input type="text" name="Name" id="name" class="form-input" />
+        <label for="surname">Enter your surname</label>
+        <input type="text" name="Surname" id="surname" class="form-input" />
+        <label for="city">Select your city</label>
+        <select name="City" id="city" class="city-select">
+          <option value="Kyiv">Kyiv</option>
+          <option value="Kharkiv">Kharkiv</option>
+          <option value="Odessa">Odessa</option>
+          <option value="Lviv">Lviv</option>
+        </select>
+        <textarea
+          name="Address"
+          id="address"
+          cols="30"
+          rows="10"
+          class="form-textarea"
+        ></textarea>
+        <fieldset>
+          <legend for="fieldset">Languages</legend>
+          <input
+            name="Language"
+            type="checkbox"
+            id="language-russian"
+            class="form-input"
+            value="Russian"
+          /><label for="language-russian">Russian</label>
+          <input
+            name="Language"
+            type="checkbox"
+            id="language-ukrainian"
+            class="form-input"
+            value="Ukrainian"
+          /><label for="language-ukrainian">Ukrainian</label>
+          <input
+            name="Language"
+            type="checkbox"
+            id="language-english"
+            class="form-input"
+            value="English"
+          /><label for="language-english">English</label>
+        </fieldset>
+        <button class="btn" id="submit">Create Table</button>
+      </form>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
