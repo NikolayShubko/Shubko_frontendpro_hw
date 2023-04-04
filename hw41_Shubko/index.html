@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Shop</title>
+  </head>
+  <body>
+    <div class="shop-holder">
+      <div class="categories-holder">
+        <h2 class="categories-header">Categories:</h2>
+        <ul class="categories-list">
+          <li class="categories-item">
+            <a href="#" id="Computer Parts" class="categories-link"></a>
+          </li>
+          <li class="categories-item">
+            <a href="#" id="Monitors" class="categories-link"></a>
+          </li>
+          <li class="categories-item">
+            <a href="#" id="Keyboards" class="categories-link"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="products-holder"></div>
+      <div class="product-info"></div>
+    </div>
+    <div class="info-holder">
+      <form action="" class="main-form">
+        <label for="fio">Введите ФИО</label>
+        <input type="text" class="fio" name="FIO" id="fio" required />
+        <label for="city">Select your city</label>
+        <select name="City" id="city" class="city-select" required>
+          <option value="Kyiv">Kyiv</option>
+          <option value="Kharkiv">Kharkiv</option>
+          <option value="Odessa">Odessa</option>
+          <option value="Lviv">Lviv</option>
+        </select>
+        <label for="sklad">Введите склад для отправки</label>
+        <input type="text" class="input-text" id="sklad" required />
+        <fieldset class="payment" id="payment-method" name="payment-method">
+          <legend>Способ оплаты</legend>
+          <label for="nocard">После Получения</label>
+          <input
+            type="radio"
+            id="nocard"
+            name="payment"
+            value="При получении"
+            required
+          />
+          <label for="card">Карта</label>
+          <input type="radio" id="card" name="payment" value="Карта" />
+        </fieldset>
+        <label for="amount">Количество</label>
+        <input type="number" min="1" id="amount" name="Количество" required />
+        <label for="comment">Комментарий</label>
+        <input type="text" id="comment" name="Комментарий" />
+        <button class="done-btn" id="done-btn">Done</button>
+      </form>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
