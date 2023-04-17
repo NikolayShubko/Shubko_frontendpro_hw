@@ -1,0 +1,65 @@
+body {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  font-family: "Roboto Mono", monospace;
+}
+
+.weather-holder {
+  background-color: #373737;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 50px auto;
+  max-width: 500px;
+}
+
+.city {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.temp {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.pressure {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.description {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.humidity {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.speed {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.deg {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.image-holder {
+  margin-top: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(0 0 3px #00ff00);
+}
