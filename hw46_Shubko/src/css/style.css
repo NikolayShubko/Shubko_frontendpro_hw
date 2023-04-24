@@ -1,0 +1,59 @@
+body {
+  background-color: #1f1f1f;
+  color: #b7b7b7;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.input-holder {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-holder label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.search-field {
+  border: none;
+  border-bottom: 2px solid #4d4d4d;
+  background-color: transparent;
+  color: #b7b7b7;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  width: 200px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.search-field:focus {
+  outline: none;
+  border-color: #4d4dff;
+}
+
+.find-btn {
+  background-color: #4d4dff;
+  color: #1f1f1f;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.find-btn:hover {
+  background-color: #4242e6;
+}
+
+.comments-holder {
+  margin-top: 50px;
+}
+
+.input-holder {
+  margin-top: 50px;
+}
+

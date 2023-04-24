@@ -1,0 +1,53 @@
+
+.comments-holder div {
+   background-color: #2f2f2f;
+   border-radius: 10px;
+   padding: 30px;
+   margin-bottom: 20px;
+   box-shadow: 0px 5px 20px rgba(255, 255, 255, 0.1);
+ }
+ 
+ .comments-holder span {
+   color: #4e4e4e;
+   font-size: 20px;
+   font-weight: bold;
+   margin-right: 20px;
+ }
+ 
+ .comment-title {
+   color: #00b0ff;
+   font-size: 28px;
+   margin-bottom: 10px;
+ }
+ 
+ .comment-email {
+   color: #f44336;
+   font-size: 16px;
+   margin-bottom: 10px;
+ }
+ 
+ .comment-text {
+   color: #ffffff;
+   font-size: 18px;
+   line-height: 1.5;
+   margin-bottom: 20px;
+ }
+ 
+ .view-btn {
+   background-color: #00b0ff;
+   border: none;
+   border-radius: 50px;
+   color: #ffffff;
+   cursor: pointer;
+   font-size: 16px;
+   font-weight: bold;
+   padding: 10px 20px;
+   margin-top: 20px;
+   text-transform: uppercase;
+   transition: background-color 0.2s ease;
+ }
+ 
+ .view-btn:hover {
+   background-color: #004f6b;
+ }
+ 
