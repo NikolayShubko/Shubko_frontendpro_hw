@@ -1,0 +1,26 @@
+.aside-nav {
+  padding: 10px 0;
+}
+
+.aside-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.aside-item {
+  margin-bottom: 10px;
+}
+
+.aside-link {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.aside-link:hover {
+  color: #4bb1ff;
+}
+aside {
+  width: 20%;
+}
