@@ -1,0 +1,37 @@
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background-color: #2b3e50;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 0.5rem;
+}
+
+li.done {
+  background-color: #27ae60;
+}
+
+li.undone {
+  background-color: #c0392b;
+}
+
+button {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
