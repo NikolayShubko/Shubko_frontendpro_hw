@@ -1,0 +1,41 @@
+.albums-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 20px;
+  justify-content: center;
+}
+
+.albums-item {
+  text-align: center;
+  width: 200px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.albums-title {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.albums-link {
+  color: #ff69b4;
+  text-decoration: none;
+}
+
+.albums-link:hover {
+  text-decoration: underline;
+}
+
+.albums-link::after {
+  content: " ➜";
+}
+
+.albums-link:focus {
+  outline: 2px solid #ff69b4;
+  outline-offset: 2px;
+}
