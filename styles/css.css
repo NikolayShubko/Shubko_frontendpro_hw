@@ -1,0 +1,233 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0 auto;
+  color: #000;
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #fff;
+  transition: all ease-in-out 0.4s;
+}
+a:hover {
+  color: #00a4e5;
+}
+
+.nav-link:hover {
+  box-shadow: none;
+
+  background: none;
+  border-radius: 3px;
+}
+.visual-block {
+  min-height: 100vh;
+  background: url(../assets/main-bg.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slogan {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 88px;
+  color: #fff;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+  height: 60px;
+  background-color: #00a4e5;
+  border-radius: 50px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.button:hover {
+  color: #fff;
+  box-shadow: 10px 0px 20px rgba(0, 164, 229, 0.25),
+    -10px 0px 20px rgba(0, 164, 229, 0.25),
+    0px -10px 20px rgba(0, 164, 229, 0.25),
+    0px 10px 20px rgba(0, 164, 229, 0.25);
+}
+.scroll::before {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-right: 3px solid #000;
+  border-bottom: 3px solid #000;
+  left: calc(50% - 4.5px);
+  bottom: calc(50% - 4.5px);
+  transform: rotate(45deg);
+  transition: all ease-in-out 0.3s;
+}
+.scroll:hover::before {
+  border-color: #fff;
+}
+.logo-holder {
+  margin-top: 19px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1620px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  align-items: center;
+  border-bottom: 2px solid #000;
+  padding: 25px 25px;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.header-box {
+  margin-bottom: 100px;
+}
+.advantages {
+  border-bottom: 2px solid #000;
+  margin-bottom: 171px;
+}
+.advantages-header {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+}
+.advantages-list {
+  list-style: none;
+  margin: 0 0 100px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.advantages-item {
+  width: 700px;
+  height: 500px;
+  border: 2px solid #000000;
+  border-radius: 60px;
+  padding: 25px 47px 0;
+  transition: all ease-in-out 0.3s;
+}
+
+.advantages-item:hover {
+  box-shadow: 0px 25px 80px rgba(0, 164, 229, 0.18);
+}
+
+.advantages-list-header {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  margin: 0 0 25px 0;
+}
+
+.advantages-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 137px;
+}
+.advantages-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.propose {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.propose-header {
+  margin: 0 0 75px 0;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 88px;
+}
+
+.catalog {
+  height: 45px;
+  padding-top: 15px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000;
+}
+
+.propose-image {
+  min-height: 498px;
+  background: url(../assets/propose-bg.jpg) 50% 100% no-repeat;
+  background-size: 100% auto;
+}
+
+.footer {
+  background-color: #00a4e5;
+  padding: 102px 0 98px;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 150px;
+}
+
+.logo-holder-footer {
+  display: inline-block;
+}
+
+.footer-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+.footer-link {
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #000;
+}
+.paragraph {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}

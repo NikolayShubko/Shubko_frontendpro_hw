@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/css.css" />
+    <link rel="stylesheet" href="styles/catalog.css" />
+
+    <title>КЕВ</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-box">
+        <div class="container header-container">
+          <div class="logo-holder-header">
+            <a href="index.html">
+              <img src="assets/LogoBlack.svg" width="48" height="69" />
+            </a>
+          </div>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Головна</a>
+              </li>
+              <li class="nav-item">
+                <a href="catalog.html" class="nav-link">Каталог</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="container main-section">
+      <aside class="aside">
+        <h2 class="categories-header">Категорії</h2>
+        <div class="categories-holder">
+          <ul class="categories-list" id="categories-list">
+            <li class="categories-item">
+              <a href="#" class="categories-link" id="bydivlya">Будівля</a>
+            </li>
+            <li class="categories-item">
+              <a href="#" class="categories-link" id="maydanchik">Майданчик</a>
+            </li>
+            <li class="categories-item">
+              <a href="#" class="categories-link" id="bydova"
+                >Тимчасова будова</a
+              >
+            </li>
+            <li class="categories-item">
+              <a href="#" class="categories-link" id="primishennya"
+                >Приміщення</a
+              >
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <main class="catalog-main">
+        <div class="filter-holder">
+          <label for="filter">Сортувати за</label>
+          <select name="" id="filter">
+            <option value="high">Найвищою ціною</option>
+            <option value="low">Найнижчою ціною</option>
+          </select>
+          <button id="sortBtn">Сортувати</button>
+        </div>
+        <div class="products-holder"></div>
+      </main>
+    </section>
+    <footer class="footer">
+      <section class="container footer-section">
+        <div class="logo-holder-footer">
+          <a href="index.html" class="logo-link">
+            <img
+              src="assets/LogoWhite.svg"
+              width="81"
+              height="117"
+              alt="logo"
+            />
+          </a>
+        </div>
+        <div class="footer-list">
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a href="index.html" class="footer-link">Головна</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="catalog.html" class="footer-link">Каталог</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-list">
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <p class="paragraph">Зв’язатись з нами</p>
+            </li>
+            <li class="footer-list-item">
+              <a href="tel:+380961234567" class="footer-link">+380961234567</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="mailto:kev@ukr.net" class="footer-link">kev@ukr.net</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
